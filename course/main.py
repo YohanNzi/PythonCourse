@@ -1,13 +1,29 @@
+import calculator
 
 
-number = int(input("Quelle table voulez-vous afficher ? "))
-table = []
+# with open('./data/poem.txt') as f:
+#     poem = f.read()
 
-for i in range(1, 11):
-    if ((number*i) % 3 == 0):
-        table.append(f'{number*i}*')
-    else:
-        table.append(number*i)
+# print(poem)
+
+
+
+if __name__ == "__main__":
+    print(calculator.addition(4, 4))
+    print(calculator.substraction(4, 4))
+    print(calculator.division(4, 4))
+    print(calculator.multiplication(4, 4))
+
+
+
+# number = int(input("Quelle table voulez-vous afficher ? "))
+# table = []
+
+# for i in range(1, 11):
+#     if ((number*i) % 3 == 0):
+#         table.append(f'{number*i}*')
+#     else:
+#         table.append(number*i)
     
 #     table.append(number*i)
 # for result in table :
@@ -16,7 +32,7 @@ for i in range(1, 11):
 #         result = str(f'{result}*')
 #         table[index] = result
     
-print(table) #commentaire monoligne
+#print(table) #commentaire monoligne
 
 # for i in range(1, 11):
 #     table.append(number*i)
